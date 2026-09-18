@@ -93,14 +93,6 @@ THEN
 END
 
 IF
-	NumItemsPartyGT("C0AMISC7",4)
-THEN
-	RESPONSE #100
-		TakePartyItemNum("C0AMISC7",5)
-        GiveItemCreate("C0AMISC5",Player1,1,0,0)  // Rift Device
-END
-
-IF
 	Global("MurdersSolved","GLOBAL",1)
 	Global("C0AuraElephantSkin","GLOBAL",2)
 THEN
