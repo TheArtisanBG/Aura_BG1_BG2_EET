@@ -403,7 +403,7 @@ AreaType(CITY)
 ClassLevelGT("Faldorn",PRIEST,6)
 Global("C0AuraFaldorn2","GLOBAL",0)~ THEN %FALDORN_BANTER% C0AuraFaldorn1
 ~Grr! Wretched abominations, despoilers of nature! I despise them all.~
-DO ~SetGlobal("C0AuraFaldorn1","GLOBAL",1)~
+DO ~SetGlobal("C0AuraFaldorn2","GLOBAL",1)~
 == BC0AURA ~You're looking mighty angry, Faldorn. Y-you're not about to turn into a bear, are you?~
 == %FALDORN_BANTER% ~'Twould be a suitable display to put fear in the hearts of these ignorant humans! Nature has given me the gift of change, and it shall be used in her name!~
 == BC0AURA ~Eep! I wasn't serious! Please, turn into anything, just not a bear!~
