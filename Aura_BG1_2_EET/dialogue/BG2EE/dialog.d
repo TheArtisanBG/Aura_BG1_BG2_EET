@@ -2873,7 +2873,7 @@ IF ~!Global("C0AuraBG2Quest2FirstTime","GLOBAL",0)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("C0AuraBG2Quest2IceEncounter","GLOBAL",1)~ THEN C0AURA2J QUEST2-ICE-ENCOUNTER-1
 ~Ohh... brr... this is even worse than I imagined...~ [C0BLANK]
-DO ~SetGlobal("C0AuraBG2Quest2IceEncounter","GLOBAL",2) CreateCreatureEffect("C0AYUKI","C0FREEZEE",[466.369],S)~ EXIT
+DO ~SetGlobal("C0AuraBG2Quest2IceEncounter","GLOBAL",2) CreateCreatureEffect("C0AYUKI","C0FREEZE",[466.369],S)~ EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("INTRO","LOCALS",0)
 Global("C0AuraBG2Quest2IceEncounter","GLOBAL",2)~ THEN C0AYUKI QUEST2-ICE-ENCOUNTER-2

@@ -432,7 +432,7 @@ Kit(Player1,FERALAN)~ + ~You're a scholar, but I notice you're wearing armor, an
 
 CHAIN C0AURA2 INTRO-DIALOG-2-7
 ~Well, counting them all would take a while, but all sorts, really. The Dalelands, Aglarond, Chondath... not as many in the North, I've heard it's rough surviving up there... a few lands outside of Faerûn, too— Maztica and Kara-Tur... I actually lived in Kozakura for a few years, not long ago from now.~
-DO ~SetGlobal("C0AuraBackgroundTalk","GLOBAL",1)~ 
+DO ~SetGlobal("C0AuraBackgroundTalk","MYAREA",1)~ 
 = ~I wasn't alone for most of it, but I lost my entourage some time ago, long before I settled here... but that's a long story.~
 END
 + ~!Global("C0AuraBattleTalk","GLOBAL",1)
